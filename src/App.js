@@ -11,6 +11,7 @@ function getRandomAnimal (){
 function App() {
     const [animals, setAnimals] = useState([])
 
+    //function to handle and add animals to the list
     const handleClick = () => {
         setAnimals([...animals, getRandomAnimal()])
     }
